@@ -1,0 +1,8 @@
+name: specification
+version: 0.0.1
+author: Tomochika Hara <tomochikahara@gmail.com>
+description: The Implemetation of Specification Pattern in Domain Driven Design book
+environment:
+  sdk: '>=0.4.7+1'
+dev_dependencies:
+  unittest: any
