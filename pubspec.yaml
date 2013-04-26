@@ -1,7 +1,7 @@
 name: specification
 version: 0.0.1
 author: Tomochika Hara <tomochikahara@gmail.com>
-description: The Implemetation of Specification Pattern in Domain Driven Design book
+description: Dart implementation of the Specification pattern in Domain Driven Design.
 environment:
   sdk: '>=0.4.7+1'
 dev_dependencies:
