@@ -7,7 +7,7 @@ abstract class Negational<T> implements Specification<T> {
   CompositeSpecification<T> not() => new NegationSpecification(this);
 }
 
-class NegationSpecification<T> extends CompositeSpecification<T> {
+class NegationSpecification<T> extends Specification with Composite<T> {
   
   final Specification<T> _s;
 
