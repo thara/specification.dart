@@ -1,8 +1,12 @@
+library operators_test;
+
 import 'package:unittest/unittest.dart';
 
 import 'package:specification/specification.dart' as spec;
 
-main () {
+main () => run();
+
+run () {
   
   group("logical conjunction :", () {
     

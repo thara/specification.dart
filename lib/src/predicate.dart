@@ -2,7 +2,7 @@ part of specification;
 
 typedef bool Predicate<T>(T candidate);
 
-class PredicateSpecification<T> extends Specification<T> {
+class PredicateSpecification<T> extends Specification<T> with Composite<T> {
   
   final Predicate<T> _predicate;
   
