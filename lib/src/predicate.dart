@@ -2,7 +2,7 @@ part of specification;
 
 typedef bool Predicate<T>(T candidate);
 
-class PredicateSpecification<T> extends Specification<T> with Composite<T> {
+class PredicateSpecification<T> extends Specification<T> with OperatorMixin<T> {
   
   final Predicate<T> _predicate;
   
@@ -10,6 +10,8 @@ class PredicateSpecification<T> extends Specification<T> with Composite<T> {
   
   bool isSatisfiedBy(T candidate) => _predicate(candidate);
   
+  Specification<T> get specification => this;
+    
   int get hashCode => _predicate.hashCode;
   
   bool operator ==(other) {
@@ -17,4 +19,6 @@ class PredicateSpecification<T> extends Specification<T> with Composite<T> {
     if (other is PredicateSpecification<T> == false) return false;
     return this._predicate == (other as PredicateSpecification<T>)._predicate;
   }
+
+  
 }
