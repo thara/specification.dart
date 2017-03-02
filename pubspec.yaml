@@ -4,6 +4,6 @@ author: Tomochika Hara <tomochikahara@gmail.com>
 description: Dart implementation of the Specification pattern in Domain Driven Design.
 homepage: https://github.com/tomochikahara/specification.dart
 environment:
-  sdk: '>=0.4.7+1'
+  sdk: '>=1.22.1'
 dev_dependencies:
-  unittest: any
+  test: '>=0.12.20'

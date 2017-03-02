@@ -1,6 +1,6 @@
 library equivalent_test;
 
-import 'package:unittest/unittest.dart';
+import 'package:test/test.dart';
 
 import 'package:specification/specification.dart' as spec;
 
