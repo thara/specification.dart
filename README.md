@@ -1,12 +1,16 @@
 #Specification.dart
+=====
 
-##[Dart](http://www.dartlang.org/) implementation of the Specification pattern in Domain Driven Design.
+
+[![Build Status](https://travis-ci.org/tomochikahara/specification.dart.svg?branch=master)](https://travis-ci.org/tomochikahara/specification.dart)
+
+Implementation of the Specification pattern in Domain Driven Design by Dart.
 
 ### What is the specificaiton pattern?
 
 > the specification pattern is a particular software design pattern, whereby business rules can be recombined by chaining the business rules together using boolean logic. 
-> 
-> ["Specification pattern."](http://en.wikipedia.org/wiki/Specification_pattern) Wikipedia: The Free Encyclopedia. Wikimedia Foundation, Inc. 15 April 2013. Web. 27 April 2013.
+
+["Specification pattern."](http://en.wikipedia.org/wiki/Specification_pattern) Wikipedia: The Free Encyclopedia. Wikimedia Foundation, Inc. 15 April 2013. Web. 27 April 2013.
 
 ### Examples
 
@@ -42,4 +46,4 @@
 see LICENSE
 
 ### Author
-* Tomochika Hara([+tomochikahara](https://plus.google.com/118297765674260615355), [@tomochikahara](https://twitter.com/tomochikahara), [@zetta1985](https://twitter.com/zetta1985)) 
+* Tomochika Hara([@zetta1985](https://twitter.com/zetta1985))
