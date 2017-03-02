@@ -2,8 +2,6 @@
 
 ##[Dart](http://www.dartlang.org/) implementation of the Specification pattern in Domain Driven Design.
 
-[![Build Status](https://drone.io/github.com/tomochikahara/specification.dart/status.png)](https://drone.io/github.com/tomochikahara/specification.dart/latest)
-
 ### What is the specificaiton pattern?
 
 > the specification pattern is a particular software design pattern, whereby business rules can be recombined by chaining the business rules together using boolean logic. 
