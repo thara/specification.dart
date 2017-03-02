@@ -1,6 +1,5 @@
-#Specification.dart
+Specification.dart
 =====
-
 
 [![Build Status](https://travis-ci.org/tomochikahara/specification.dart.svg?branch=master)](https://travis-ci.org/tomochikahara/specification.dart)
 
